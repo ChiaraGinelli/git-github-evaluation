@@ -79,3 +79,9 @@ git log --oneline --graph
 
 Pull Request & GitHub Flow:
 git checkout -b feature/amelioration-readme
+git add README.md
+git commit -m "improve readme"
+![alt text](image-14.png)
+git checkout master
+git log --oneline
+![alt text](image-15.png)
